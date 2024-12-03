@@ -1,0 +1,12 @@
+<div class="container-fluid m-5">
+  <div class="card" style="width: 18rem;">
+    <img [src]="me.urlImage" class="card-img-top" alt="Bild von {{ me.firstname }}">
+    <div class="card-body">
+      <h5 class="card-title">{{ me.firstname }} {{ me.surname }}</h5>
+      <p class="card-text">{{ me.message }}</p>
+      <a routerLink="/home" class="btn btn-primary">Zurück</a>
+    </div>
+  </div>
+</div>
+
+
